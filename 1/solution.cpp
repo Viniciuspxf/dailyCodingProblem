@@ -2,7 +2,7 @@
 using namespace std;
 
 bool solution(vector<int> list, int k) {
-    map<int, int> occurrences;
+    unordered_map<int, int> occurrences;
     int anotherNumber;
 
     for (int i = 0; i < list.size(); i++) {
