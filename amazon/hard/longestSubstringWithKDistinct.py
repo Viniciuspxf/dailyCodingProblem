@@ -6,7 +6,7 @@
 
 # For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb".
 
-def longestSubstring(string, k):
+def longestSubstring(string, k): #linear solution
   characters = set()
   begin_index = 0
   max_length = 1
